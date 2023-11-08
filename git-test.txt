@@ -1,1 +1,2 @@
 Getting Git is legit
+This learning curve is a beast
