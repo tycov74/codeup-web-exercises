@@ -161,7 +161,7 @@ console.log(calculateTip(0.15, 33.42))
 const applyDiscount = (priceBeforeDiscount, discountPercent) => {
     return (priceBeforeDiscount - (priceBeforeDiscount * discountPercent)).toFixed(2)
 }
-// toFixed()
+// toFixed() for decimal placement
 let originalPrice = 100;
 let discountPercent = .2; // 20%
 console.log(applyDiscount(originalPrice, discountPercent)); // 80
