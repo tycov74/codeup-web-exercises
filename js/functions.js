@@ -42,7 +42,7 @@ function sayHello(name){
 // DONE Store the result of the function call in a variable named 'helloMessage'
 // DONE console.log 'helloMessage' to check your work
 
-const helloMessage = sayHello (`Tye`)
+const helloMessage = sayHello ("Tye")
 console.log(helloMessage);
 
 /**
@@ -54,11 +54,11 @@ console.log(helloMessage);
 // Store your name as a string in a variable named 'myName'
 // pass that variable to the 'sayHello' function.
 
-let myName = 'Tye';
+let myName = "Tye";
 // const = constant (cannot change), var or let
 // sayHello(myName);
 console.log(sayHello(myName));
-// console.log('hello ' + 'Tye ');
+//console.log('hello ' + 'Tye ');
 
 
 // Don't modify the following line, it generates a random number between 1 and 3
@@ -92,9 +92,9 @@ function isTwo(someNumber) {
 }
 console.log(isTwo(random));
 // console.log(isTwo(random))
-// console.log(isTwo(1));
-// console.log(isTwo(2));
-// console.log(isTwo(3));
+console.log(isTwo(1));
+console.log(isTwo(2));
+console.log(isTwo(3));
 
 
 
@@ -109,6 +109,7 @@ console.log(isTwo(random));
  * > calculateTip(0.25, 25.50) // returns 6.375
  * > calculateTip(0.15, 33.42) // returns 5.013
  */
+
 // DONE Create a function named 'calculateTip'
 // The function should accept a tip percentage and the total of the bill
 // return the amount to tip
@@ -132,10 +133,10 @@ console.log(calculateTip(0.15, 33.42))
 //use calculate tip to get the total tip amount
 //alert user with total tip amount
 
-// const userBillTotal = propmt("Enter your total bill cost");
-// const userTipPercent = prompt("Enter the percent you would like to tip")
-// const totalTipAmount = calculateTip(userTipPercent, userBillTotal)
-// alert("The amount you should tip is: $${totalTipAmount}")
+const userBillTotal = prompt("Enter your total bill cost");
+const userTipPercent = prompt("Enter the percent you would like to tip")
+const totalTipAmount = calculateTip(userBillTotal, userTipPercent)
+alert(`The amount you should tip is: ${totalTipAmount}`);
 
 /**
  * TODO:
@@ -164,5 +165,5 @@ const applyDiscount = (priceBeforeDiscount, discountPercent) => {
 // toFixed() for decimal placement
 let originalPrice = 100;
 let discountPercent = .2; // 20%
-console.log(applyDiscount(originalPrice, discountPercent)); // 80
-console.log(applyDiscount(45.99, 0.12)); // 40.4712
+console.log(applyDiscount(originalPrice, discountPercent));
+console.log(applyDiscount(68.50, 0.18));
