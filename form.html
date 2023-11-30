@@ -7,7 +7,7 @@
      <body>
          <h1>Register With Us</h1>
              <form method="POST" action="https://request-inspector.glitch.me/">
-                 <label for="username">USERNAME: </label>
+                 <label for="username">Username: </label>
  <br>
                  <input id="username" name="Username" type="text" placeholder="Username" autocomplete="off">
  <br>
@@ -15,7 +15,7 @@
                  <label for="password">Password: </label>
  <br>
                  <!-- <input type="text" name="password" placeholder="Password"> -->
-                 <input id="password" name="PASSWORD" type="password" placeholder="Password">
+                 <input id="password" name="Password" type="password" placeholder="Password">
  <br><br>
                  <label for="bio">BIO: </label>
  <br>
@@ -24,23 +24,29 @@
                  <legend>How Did You Hear About Us?</legend>
  <br>
                 <div>
-                    <input type="radio" id="selectChoice1" name="select1" >
-                    <label for="selectChoice1">Newspaper Ad</label>
+                    <input type="radio" id="selectChoice1" name="select1" value="Newspaper">
+                    <label for="selectChoice1">Newspaper</label>
                 </div>
 
                  <div>
-                    <input type="radio" id="selectChoice2" name="select2" >
+                    <input type="radio" id="selectChoice2" name="select2" value="Internet">
                     <label for="selectChoice2">Internet</label>
                  </div>
 
                  <div>
-                    <input type="radio" id="selectChoice3" name="select1" >
-                    <label for="selectChoice3">Billboard Sign</label>
+                    <input type="radio" id="selectChoice3" name="select1" value="Billboard">
+                    <label for="selectChoice3">Billboard</label>
+
+                 </div>
+                    <input type="radio" id="selectChoice4" name="select4" value="Other">
+                    <label for="selectChoice3">Other</label>
+                 <div>
+
                  </div>
  <br>
                  <div>
-                     <label for="feature"> What Web Browser You Use:</label>
-                     <select id="feature" name="feature">
+                     <label for="browser"> What Web Browser You Use:</label>
+                     <select id="browser" name="browser">
                          <option value="1">Firefox</option>
                          <option value="2">Google Chrome</option>
                          <option value="3">Microsoft Edge</option>
@@ -49,7 +55,7 @@
                  </div>
  <br>
                  <!-- <input type="submit"> -->
-                 <button type="submit">Login</button>
+                 <button type="submit">Submit</button>
             </form>
      </body>
  </html>
