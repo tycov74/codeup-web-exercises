@@ -203,19 +203,21 @@ if (userContinue) {
 
     // const isEven = userNumber % 2 === 0;
 
-    let isEven;
-    if(userNumber % 2 === 0) {
+    /* let isEven;
+    if (userNumber % 2 === 0) {
         isEven = true;
     } else {
         isEven = false;
     // } same as above
+
+     */
 
     if (isEven) {
         alert(`${userNumber} is even`);
     } else {
         alert(`${userNumber} is odd`);
     }
+function userNumberPlus100(userNumber) {
+    const numPlus100 = userNumber + 100;
 }
-
-
-
+}
