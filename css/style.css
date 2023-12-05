@@ -1,4 +1,23 @@
-.fancy-header {
-    color: purple;
-    text-decoration: underline;
+h1, p {
+    text-align: center;
+    color: whitesmoke;
+}
+h1 {
+    text-decoration: underline dotted;
+}
+body {
+    background-color: dodgerblue;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.0)), url("../../images/woundedWarrior1.png");
+    background-size: cover;
+}
+
+h2 {
+    color: gold;
+    text-decoration: yellowgreen underline;
+}
+ul, ol, tr {
+    color: indigo;
+}
+a {
+    color: red;
 }
