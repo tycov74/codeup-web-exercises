@@ -12,11 +12,52 @@ body {
     width: calc(100% - 40px);
     max-width: 530px;
     box-shadow: 0px 0px 104px -40px rgba(0, 0, 0, 0.25);
+    z-index: 1;
 }
 
 .container.login h1 {
     font-size: 22px;
     text-align: center;
+}
+
+/*.flex-container {*/
+/*    display: flex;*/
+/*}*/
+
+.dots {
+    bottom: 390px;
+    left: 250px;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*margin-left: 0;*/
+
+}
+
+.dots2 {
+    top: 15px;
+    right: 205px;
+}
+
+.f-w-b {
+    bottom: 0;
+
+}
+
+.f-w-t {
+    top: 360px;
+}
+
+.times-icon {
+    top: 250px;
+}
+
+.wavy-lines {
+    top: 200px;
+    left: 120px;
+}
+
+.wavy-lines2 {
+    right: 140px;
 }
 
 input {
@@ -72,5 +113,14 @@ button.btn.btn-login {
     flex: 0 1 auto;
     min-width: 250px;
 }
-
-
+.page-wrapper.justify-center.align-center img {
+    position: absolute
+}
+/*img[src='images/f-w-t.svg'],*/
+/*img[src='images/f-w-b.svg'] {*/
+/*    bottom: 0;*/
+/*    width:100%;*/
+/*}*/
+/*!*img[src*='dots-1'] {*!*/
+/*!*    left: 150px;*!*/
+/*}*/
